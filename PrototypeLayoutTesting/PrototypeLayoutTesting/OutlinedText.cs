@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Class copied from
+// http://stackoverflow.com/questions/93650/apply-stroke-to-a-textblock-in-wpf
+// Kris Erickson 17/9/2008
+// Accessed: May/5/2015
+
+using System;
 using System.Windows.Media;
 using System.Globalization;
 using System.Windows;

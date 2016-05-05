@@ -13,8 +13,11 @@ namespace PrototypeLayoutTesting
     {
         public Svg Svg { get; set; }
 
-
-        public void GetSvg(string filePath)
+        /// <summary>
+        /// Extracts the XML from the SVG of the filepath passed in
+        /// </summary>
+        /// <param name="filePath">Location of the file to be extracted</param>
+        public void ExtractSvgData(string filePath)
         {
             XDocument svgToExtract = XDocument.Load(filePath);
 
